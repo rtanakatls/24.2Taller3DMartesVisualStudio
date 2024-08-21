@@ -10,6 +10,8 @@ namespace _242Taller3DMartesSemana1
     {
         static void Main(string[] args)
         {
+            Menu menu=new Menu();
+            menu.Execute();
         }
     }
 }
