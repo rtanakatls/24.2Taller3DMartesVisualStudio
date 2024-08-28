@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _242Taller3DMartesSemana1.Figures;
 
 namespace _242Taller3DMartesSemana1
 {
@@ -10,7 +11,7 @@ namespace _242Taller3DMartesSemana1
     {
         static void Main(string[] args)
         {
-            Menu menu=new Menu();
+            FigureMenu menu =new FigureMenu();
             menu.Execute();
         }
     }
