@@ -8,8 +8,8 @@ namespace _242Taller3DMartesSemana1
 {
     internal class Person
     {
-        private string name;
-        private int age;
+        protected string name;
+        protected int age;
 
         public string Name
         {
@@ -26,5 +26,10 @@ namespace _242Taller3DMartesSemana1
             this.name = name;
             this.age = age;
         }
+
+        public virtual string GetData()
+        {
+            return $"Nombre: {name} - Edad: {age}";
+        } 
     }
 }
